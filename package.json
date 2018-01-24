@@ -1,0 +1,30 @@
+{
+  "name": "learnyounode",
+  "version": "1.0.0",
+  "description": "Solutions of learnyounode",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": " ./node_modules/.bin/jest",
+    "coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/googleknight/learnyounode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/googleknight/learnyounode/issues"
+  },
+  "homepage": "https://github.com/googleknight/learnyounode#readme",
+  "devDependencies": {
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "jest": "^22.1.4"
+  }
+}
